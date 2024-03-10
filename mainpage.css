@@ -1,0 +1,36 @@
+*{
+    padding:0;
+    margin:0;
+}
+#taskbar{
+    font-family: sans-serif;
+    background-color: rgb(253, 238, 190);
+}
+.items{
+    text-decoration: none;
+    color: black;
+}
+#taskbar ul li{
+    display:inline-block;
+    width:100%;
+    text-align:center;
+    padding:7px;
+    transition:all 1s;
+}
+#btns{
+    margin-right: 15px;
+}
+#taskbar ul li:hover{
+    background-color:rgb(245, 162, 61);
+}
+#taskbar ul{
+    display:flex;
+    justify-content: space-between;
+}
+#taskbar ul input[type="text"]{
+    border:none;
+    padding:7px;
+    border-radius:100px;
+    margin:10px;
+    width:300px;
+}
