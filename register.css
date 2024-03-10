@@ -1,0 +1,43 @@
+*{
+    margin:0;
+    padding:0;
+}
+.inp{
+    margin:13px;
+    padding:5px;
+    display:block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.register{
+    margin:13px;
+    padding:5px;
+    display:block;
+}
+#btn2{
+    margin:13px;
+    padding:5px;
+    display:block;
+    margin-left: auto;
+    margin-right: auto;
+    background-image: url(https://img2.thuthuat123.com/uploads/2020/05/12/hinh-nen-chuyen-mau-vang-cam-cuc-dep_025724931.jpg);
+}
+#register{
+    border:5px solid black;
+    width:300px;
+    text-align:center;
+    background-color:rgb(255, 255, 255);
+    margin: 50px;
+}
+#bg{
+
+    background-image: url(https://img2.thuthuat123.com/uploads/2020/05/12/hinh-nen-chuyen-mau-vang-cam-cuc-dep_025724931.jpg);
+    display:flex;
+    justify-content:space-around;
+}
+#wrong{
+    color: rgb(255, 0, 0);
+    margin:0;
+    display:none;
+    font-size: smaller;
+}
