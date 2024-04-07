@@ -1,53 +1,169 @@
 *{
-    margin:0;
     padding:0;
-}
-#username{
-    display:block;
-    padding:5px;
-    margin:13px;
-    text-align: center;
-}
-#userpw{
-    display:block;
-    padding:5px;
-    margin:13px;
-    text-align: center;
-}
-#login{
-    height:px;
-    width:300px;
-    border:5px solid black;
-    text-align: center;
-    display:flex;
-    justify-content: center;
-    flex-direction: column;
-    background-color: rgb(255, 255, 255);
-    margin:auto;
-    margin-top:50px
-}
-#btn2{
-    display:block;
-    padding:5px;
-    margin:13px;
-    text-align: center;
-    background-color: rgba(209, 181, 255, 0.893);
-}
-#bg{
-    background-image: url(https://khoinguonsangtao.vn/wp-content/uploads/2022/08/tai-background-dep-nhat.jpg);
-    align-items: center;
-}
-.register{
-    float: left;
-    display:block;
-    text-align: center;
-    border: 0;
-    background-color: rgb(255, 255, 255) ;
-    text-decoration:none;
-}
-#alert{
-    display:none;
-    color: rgb(255, 0, 0);
     margin:0;
-    font-size: smaller;
+}
+#taskbar{
+    font-family: sans-serif;
+    background-color: rgb(253, 238, 190);
+    position:sticky;
+    top:0;
+}
+.items{
+    text-decoration: none;
+    color: black;
+}
+#taskbar ul li{
+    display:inline-block;
+    width:100%;
+    text-align:center;
+    padding:7px;
+    transition:all 1s;
+}
+#btns{
+    margin-right: 15px;
+}
+#taskbar ul li:hover{
+    background-color:rgb(245, 162, 61);
+    border-radius: 30px;
+}
+#taskbar ul{
+    display:flex;
+    justify-content: space-between;
+    position:sticky;
+}
+#taskbar ul input[type="text"]{
+    border:none;
+    padding:7px;
+    border-radius:100px;
+    margin:10px;
+    margin-right:0px;
+    width:300px;
+}
+#search button{
+    cursor:pointer;
+    width:auto;
+    height:28px;
+    padding:5px;
+    border-radius:100px;
+    background-color:rgb(245, 162, 61) ;
+    color:rgb(255, 255, 255);
+    border:none;
+}
+#slideshow{
+    width:100%;
+}
+.img{
+    width:100%;
+    height:100%;
+}
+#title{
+    text-align: center; 
+    margin-top:180px; 
+    margin-bottom:auto; 
+    color:rgb(214, 220, 244); 
+    font-size: 35px; 
+}
+.item{
+    display: flex;
+    justify-content:space-around;
+    border: 5px;
+}
+.diadiem{
+    width:250px;
+    border-style: solid;
+    border-width: 1px;
+    border-color: rgb(182, 183, 184);
+    padding:15px;
+    border-radius: 15px;
+    background-color: rgb(248, 240, 227);
+    margin-top: 10px;
+    transition: all 1s;
+    height:290px;
+}
+.diadiem:hover{
+    margin-top: 0px;
+}
+h2{
+    margin:15px;
+}
+.item a{
+    text-decoration: none;
+    color:black
+}
+#content{
+    text-align: center;
+    margin:20px;
+    font-size: 20px;
+}
+#content p{
+    width:54%;
+    padding-left: 23%;
+    padding-right: 23%;
+}
+#content h1{
+    color:rgb(82, 89, 157)
+}
+#infor{
+    display: inline-block;
+}
+#fbcover{
+    display: inline-block;
+}
+#fbcover p{
+    display: inline-block;
+}
+#footer{
+    display:flex;
+    justify-content:space-between;
+    padding:3%;
+    background-color: rgb(213, 230, 244);
+}
+#feedback{
+    display: block;
+    width:400px;
+    height:100px;
+    margin: 7px;
+    word-wrap: break-word;
+    word-break: break-all;
+    resize: none;
+}
+#efeedback{
+    display:inline-block;
+}
+.in4 p{
+    display:inline-block;
+    margin:4px;
+    margin-bottom: 6px;
+}
+.in4{
+    display:block;
+    margin:2px;
+}
+hr{
+    margin-top:30px;
+    margin-bottom:30px;
+    margin-left:3%;
+    margin-right:3%
+}
+#fbcover button{
+    background-color: rgb(136, 199, 255);
+    padding:3px;
+    border-radius:7px;
+    border-color: rgb(0, 136, 255);
+}
+#fbk{
+    border-style: solid;
+    border-width: 1.5px;
+    border-color:rgb(0, 0, 0);
+    border-radius: 5px;
+    padding:2px;
+    background-color: rgb(20, 144, 252);
+    color: aliceblue;
+    margin-right:5px;
+}
+#wrong{
+    display: none;
+    color:red;
+    font-size: 15px;
+    margin:3px
 }

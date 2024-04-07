@@ -6,14 +6,116 @@
     <title>Document</title>
     <link rel="stylesheet" href="index.css">
 </head>
-<body id="bg">
-    <div id="login">
-        <h1>Login</h1>
-        <input id="username" type="text" placeholder="account name">
-        <input id="userpw" type="text" placeholder="password">
-        <a class="register" href="register.html"> Don't have an account?</a>
-        <p id="alert"></p>
-        <button id="btn2">Login</button>
+<body>
+    <div id="taskbar">
+        <ul>
+            <form id="search">
+                <input id="searchplace" type="text" placeholder="Atraction, tickets,..." name="search">
+                <button id="searchbutton" type="submit">search</button>
+            </form>
+            <ul id="btns">
+                <li><a class="items" href="index.html">HOME</a></li>
+                <li><a class="items" href="attraction.html">ATTRACTION</a></li>
+                <li><a class="items" href="unique.html">UNIQUE CUISINE</a></li>
+            </ul>
+        </ul>
+    </div>
+    <div id="slideshow">
+        <img class="img" src="index1.png" alt="">
+        <img class="img" src="index2.png" alt="">
+        <img class="img" src="index3.png" alt="">
+    </div>
+    <div id="content">
+        <h1>Bình Định</h1>
+        <p>Bình Định là một tỉnh ven biển nằm ở phía bắc khu vực duyên hải Nam Trung Bộ, miền Trung của Việt Nam. 
+            Được biết đến với rất nhiều địa điểm du lịch nổi tiếng như Kỳ Co,Bãi tắm Hoàng Hậu,... Ngoài ra, còn 
+            là một điểm hấp dẫn dành cho những người sành ăn khi nơi đây có rất nhiều đặc sản như banh hỏi, bánh bèo,...
+            Thủ phủ của Bình Định là thành phố cảng Quy Nhơn nằm cách thủ đô Hà Nội 1.070 km về phía nam, cách thành
+             phố Đà Nẵng 323 km về phía nam và cách Thành phố Hồ Chí Minh 652 km về phía bắc theo đường Quốc lộ 1. </p>
+    </div>
+    <h2>Các địa điểm du lịch nổi tiếng</h2>
+    <div class="item">
+        <a href="baitamhoanghau.html">
+        <div class="diadiem">
+            <img src="https://cdn.vntrip.vn/cam-nang/wp-content/uploads/2018/03/3-bai-bien-hoang-hau-vntrip-e1521702747427.jpg"
+            alt="" width="250px">
+            <h3>Bãi tắm hoàng hậu</h3>
+            <p>Bãi tắm Hoàng Hậu với bãi cát trắng và nước biển trong xanh, là một thiên đường nghỉ dưỡng lý tưởng cho 
+                du khách muốn tránh xa nhịp sống đô thị ồn ào và bận rộn.</p>
+        </div>
+        </a>
+        <a href="">
+        <div class="diadiem">
+            <img src="https://vietsensetravel.com/view/at_thap-doi-binh-dinh_ba6662a9b20c71f2ed39887d018a31c8.jpeg"
+            alt="" width="250px">
+            <h3>Tháp đôi</h3>
+            <p>Tháp Đôi Quy Nhơn là một trong những công trình tiêu biểu luôn thu hút đông đảo du khách ghé thăm mỗi khi đặt chân đến nơi đây.</p>
+        </div> 
+        </a>
+        <a href="">
+        <div class="diadiem">
+            <img src="https://quynhontrip.com/wp-content/uploads/2020/10/eo-gio-2.jpg"
+            alt="" width="250px">
+            <h3>Eo gió</h3>
+            <p>Gió và nước biển đã không ngừng kiến tạo, đem đến một mỹ cảnh trần gian - độc nhất vô nhị, không thể tìm thấy ở bất kỳ nơi đâu trên thế giới.</p>
+        </div>
+        </a>
+        <a href="">
+        <div class="diadiem">
+            <img src="https://travelservices-lesvos.com/wp-content/uploads/2019/12/cu-lao-xanh-1.jpg"
+            alt="" width="250px">
+            <h3>Cù Lao Xanh</h3>
+            <p>Đến với cù lao, du khách sẽ được thưởng ngoạn một bức tranh thiên nhiên vô cùng kỳ thú, trải nghiệm nhiều hoạt động vui chơi thú vị bên bờ biển cát trắng trải dài.</p>
+        </div>
+        </a>
+    </div>
+    <h2>Một số đặc sản của Bình Định</h2>
+    <div class="item">
+        <a href="banhhoi.html">
+            <div class="diadiem">
+                <img src="https://i.pinimg.com/originals/4c/1a/aa/4c1aaaca9390b28a84b5fa11557e7a1c.jpg" alt="" width="250px">
+                <h3>Bánh hỏi</h3>
+                <p>Một món ăn không thể bỏ qua khi đến đây, là một sự kết hợp tuyệt vời với cháo lòng</p>
+            </div>
+        </a>
+        <a href="banhbeo.html">
+            <div class="diadiem">
+                <img src="https://4.bp.blogspot.com/-UpUBTfXsBx8/U6rQ8KvgIUI/AAAAAAAAMgk/JSLjPzFrt0w/s1600/dac-san-banh-beo_tour-da-nang_15112012_03.jpg" alt="" width="250px">
+                <h3>Bánh bèo</h3>
+                <p>Bánh bèo đã trở thành một nét đẹp trong văn hóa ẩm thực của người dân Viêt Nam từ bao đời nay. Tên bánh bèo có thể xuất phát từ hình dạng của nó: giống như cái lá của cây bèo.</p>
+            </div>
+        </a>
+        <a href="banhitngot.html">
+            <div class="diadiem">
+                <img src="https://imagevietnam.vnanet.vn/upload/Thumnail/2021/1/14/14012021144714697CV13_resize.JPG" alt="" width="250px">
+                <h3>Bánh ít ngọt</h3>
+                <p>Bánh ít lá gai là món bánh truyền thống của người dân Bình Định. Thường thấy ở các sự kiện lớn hay dịp quan trọng như: cưới hỏi, giỗ chạp, lễ hội…</p>
+            </div>
+        </a>
+        <a href="nem.html">
+            <div class="diadiem">
+                <img src="https://alotravel.vn/source/tintuc/nem-cho-huyen-1.png" alt="" width="250px">
+                <h3>Nem chợ huyện</h3>
+                <p>Ẩm thực miền đất võ Bình Định đã làm xiêu lòng không biết bao nhiêu người. Đặc biệt với món nem 
+                    chua chợ Huyện được cho là đặc sản dân dã đã gắn liền với bao thế hệ của người dân nơi đây.</p>
+            </div>
+        </a>
+    </div>
+    <hr>
+    <div id="footer">
+        <div id="infor">
+            <h2>Thông tin liên hệ</h2>
+            <div class="in4"><img src="https://dockx-movers.be/wp-content/uploads/2022/05/facebook_logo.png" alt="" width="5%"><p>Nam Thành</p></div>
+            <div class="in4"><img src="ig.png" alt="" width="5%"><p>Nam Thành</p></div>
+            <div class="in4"><img src="email.png" alt="" width="5.1%"><p>namthanh@gmail.com</p></div>
+        </div>
+        <div id="fbcover">
+            <h2>Nhận xét</h2>
+            <p id="fbk">facebook: </p><input id="efeedback" type="text" placeholder="tên facebook của bạn">
+            <textarea placeholder="chúng tôi sẵn sàng nghe nhận sét của bạn..." id="feedback" cols="30" rows="10"></textarea>
+            <p id="wrong"></p>
+            <button id="submit">gửi nhận xét</button>
+        </div>
     </div>
     <script src="index.js"></script>
 </body>

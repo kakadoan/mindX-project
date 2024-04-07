@@ -39,55 +39,26 @@
     margin-right:0px;
     width:300px;
 }
-.mySlides {
-    display:none;
-    width:100%;
-}
 #search button{
     cursor:pointer;
     width:auto;
-    height:auto;
+    height:28px;
     padding:5px;
     border-radius:100px;
     background-color:rgb(245, 162, 61) ;
     color:rgb(255, 255, 255);
+    border:none;
 }
-.slideshow{
-    margin-bottom: 30px;
-    position:absolute;
+#title{ 
+    color:rgb(255, 132, 0); 
+    font-size: 25px; 
+    width:45%;
+    margin-top:30px;
+    margin-bottom: auto;
+    margin-left:50%
 }
-#content{
-    text-align: center;
-    margin:20px;
-    font-size: 20px;
-}
-#content p{
-    width:54%;
-    padding-left: 23%;
-    padding-right: 23%;
-}
-#content h1{
-    color:rgb(82, 89, 157)
-}
-#login{
-    background-color: rgb(245, 162, 61);
-    border-radius: 30px;
-}
-.item{
-    display: flex;
-    justify-content:space-around;
-    border: 5px;
-}
-.diadiem{
-    padding:15px;
-    border: 15px;
-}
-h2{
-    margin:15px;
-}
-.beforelogin{
-    text-decoration: none;
-    color: black;
+#title h1{
+    margin-bottom: 20px;
 }
 #infor{
     display: inline-block;
@@ -103,6 +74,7 @@ h2{
     justify-content:space-between;
     padding:3%;
     background-color: rgb(213, 230, 244);
+    margin-top:20%;
 }
 #feedback{
     display: block;
@@ -153,5 +125,3 @@ hr{
     font-size: 15px;
     margin:3px
 }
-
-

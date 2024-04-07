@@ -7,17 +7,50 @@
     <link rel="stylesheet" href="mainpage.css">
 </head>
 <body>
-<div id="taskbar">
-    <ul>
-        <input placeholder="Attraction, tickets,..." type="text">
-        <ul id="btns">
-            <li><a class="items" href="">HOME</a></li>
-            <li><a class="items" href="">TICKETS</a></li>
-            <li><a class="items" href="">ATTRACTION</a></li>
-            <li><a class="items" href="">UNIQUE CUISINE</a></li>
-            <li><a class="items" href="">TOUR GUIDE</a></li>
+    <div id="taskbar">
+        <ul>
+            <form id="search">
+                <input id="searchplace" type="text" placeholder="Atraction, tickets,..." name="search">
+                <button id="searchbutton" type="submit">search</button>
+            </form>
+            <ul id="btns">
+                <li><a class="beforelogin" href="">HOME</a></li>
+                <li><a class="beforelogin" href="">UNIQUE CUISINE</a></li>
+                <li><a class="beforelogin" href="">ATTRACTION</a></li>
+                <li><a class="items" href="register.html">SIGN UP</a></li>
+                <li id="login"><a class="items" href="login.html">LOG IN</a></li>
+            </ul>
         </ul>
-    </ul>
+    </div>
+    <div id="slideshow">
+        <img class="img" src="index1.png" style="width: 100%;" alt="">
+        <img class="img" src="index2.png" style="width: 100%;" alt="">
+        <img class="img" src="index3.png" style="width: 100%;" alt="">
+    </div>
+    <div id="content">
+        <h1>Bình Định</h1>
+        <p>Bình Định là một tỉnh ven biển nằm ở phía bắc khu vực duyên hải Nam Trung Bộ, miền Trung của Việt Nam. 
+            Được biết đến với rất nhiều địa điểm du lịch nổi tiếng như Kỳ Co,Bãi tắm Hoàng Hậu,... Ngoài ra, còn 
+            là một điểm hấp dẫn dành cho những người sành ăn khi nơi đây có rất nhiều đặc sản như banh hỏi, bánh bèo,...
+            Thủ phủ của Bình Định là thành phố cảng Quy Nhơn nằm cách thủ đô Hà Nội 1.070 km về phía nam, cách thành
+             phố Đà Nẵng 323 km về phía nam và cách Thành phố Hồ Chí Minh 652 km về phía bắc theo đường Quốc lộ 1. </p>
+    </div>
+    <hr>
+<div id="footer">
+    <div id="infor">
+        <h2>Thông tin liên hệ</h2>
+        <div class="in4"><img src="https://dockx-movers.be/wp-content/uploads/2022/05/facebook_logo.png" alt="" width="5%"><p>Nam Thành</p></div>
+        <div class="in4"><img src="ig.png" alt="" width="5%"><p>Nam Thành</p></div>
+        <div class="in4"><img src="email.png" alt="" width="5.1%"><p>namthanh@gmail.com</p></div>
+    </div>
+    <div id="fbcover">
+        <h2>Nhận xét</h2>
+        <p id="fbk">facebook: </p><input id="efeedback" type="text" placeholder="tên facebook của bạn">
+        <textarea placeholder="chúng tôi sẵn sàng nghe nhận sét của bạn..." id="feedback" cols="30" rows="10"></textarea>
+        <p id="wrong"></p>
+        <button id="submit">gửi nhận xét</button>
+    </div>
 </div>
+<script src="mainpage.js"></script>
 </body>
 </html>

@@ -36,7 +36,7 @@ function myfunction(){
         wrong.style.display= "block"
         wrong.innerHTML="You have an account now go to sign in to continue"
     }   
-    else {
+    else if(localStorage.users){
         localStorage.setItem("users",
         JSON.stringify(
         [

@@ -1,6 +1,6 @@
 *{
-    padding:0;
-    margin:0;
+    margin: 0;
+    padding: 0
 }
 #taskbar{
     font-family: sans-serif;
@@ -39,55 +39,34 @@
     margin-right:0px;
     width:300px;
 }
-.mySlides {
-    display:none;
-    width:100%;
-}
 #search button{
     cursor:pointer;
     width:auto;
-    height:auto;
+    height:28px;
     padding:5px;
     border-radius:100px;
     background-color:rgb(245, 162, 61) ;
     color:rgb(255, 255, 255);
+    border:none;
 }
-.slideshow{
-    margin-bottom: 30px;
-    position:absolute;
-}
-#content{
-    text-align: center;
-    margin:20px;
+#title{
+    color: rgb(116, 212, 134);
     font-size: 20px;
+    margin-left: 57%;
+    width:40%;
+    margin-top: 5%;
 }
-#content p{
-    width:54%;
-    padding-left: 23%;
-    padding-right: 23%;
+#banhit{
+    color: rgb(74, 232, 103);
+    margin-bottom: 10px;
+}#title h3{
+    color: rgb(74, 232, 103); 
+    margin-top: 10px;
+    margin-bottom: 10px;
 }
-#content h1{
-    color:rgb(82, 89, 157)
-}
-#login{
-    background-color: rgb(245, 162, 61);
-    border-radius: 30px;
-}
-.item{
-    display: flex;
-    justify-content:space-around;
-    border: 5px;
-}
-.diadiem{
-    padding:15px;
-    border: 15px;
-}
-h2{
-    margin:15px;
-}
-.beforelogin{
+#title ul li a{
     text-decoration: none;
-    color: black;
+    color: rgb(116, 212, 134);
 }
 #infor{
     display: inline-block;
@@ -103,6 +82,7 @@ h2{
     justify-content:space-between;
     padding:3%;
     background-color: rgb(213, 230, 244);
+    margin-top:10%;
 }
 #feedback{
     display: block;
@@ -153,5 +133,3 @@ hr{
     font-size: 15px;
     margin:3px
 }
-
-

@@ -39,55 +39,29 @@
     margin-right:0px;
     width:300px;
 }
-.mySlides {
-    display:none;
-    width:100%;
-}
 #search button{
     cursor:pointer;
     width:auto;
-    height:auto;
+    height:28px;
     padding:5px;
     border-radius:100px;
     background-color:rgb(245, 162, 61) ;
     color:rgb(255, 255, 255);
-}
-.slideshow{
-    margin-bottom: 30px;
-    position:absolute;
+    border:none;
 }
 #content{
-    text-align: center;
-    margin:20px;
     font-size: 20px;
+    color: rgb(73, 162, 192);
+    text-align: center;
+    margin-top: 30px;
 }
 #content p{
-    width:54%;
-    padding-left: 23%;
-    padding-right: 23%;
+    width: 52%;
+    margin-left: 25%;
+    margin-right: 25%;
 }
 #content h1{
-    color:rgb(82, 89, 157)
-}
-#login{
-    background-color: rgb(245, 162, 61);
-    border-radius: 30px;
-}
-.item{
-    display: flex;
-    justify-content:space-around;
-    border: 5px;
-}
-.diadiem{
-    padding:15px;
-    border: 15px;
-}
-h2{
-    margin:15px;
-}
-.beforelogin{
-    text-decoration: none;
-    color: black;
+    color:rgb(7, 93, 168)
 }
 #infor{
     display: inline-block;
@@ -153,5 +127,3 @@ hr{
     font-size: 15px;
     margin:3px
 }
-
-

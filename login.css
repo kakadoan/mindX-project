@@ -1,0 +1,53 @@
+*{
+    margin:0;
+    padding:0;
+}
+#username{
+    display:block;
+    padding:5px;
+    margin:13px;
+    text-align: center;
+}
+#userpw{
+    display:block;
+    padding:5px;
+    margin:13px;
+    text-align: center;
+}
+#login{
+    height:px;
+    width:300px;
+    border:5px solid black;
+    text-align: center;
+    display:flex;
+    justify-content: center;
+    flex-direction: column;
+    background-color: rgb(255, 255, 255);
+    margin:auto;
+    margin-top:50px
+}
+#btn2{
+    display:block;
+    padding:5px;
+    margin:13px;
+    text-align: center;
+    background-color: rgba(209, 181, 255, 0.893);
+}
+#bg{
+    background-image: url(https://khoinguonsangtao.vn/wp-content/uploads/2022/08/tai-background-dep-nhat.jpg);
+    align-items: center;
+}
+.register{
+    float: left;
+    display:block;
+    text-align: center;
+    border: 0;
+    background-color: rgb(255, 255, 255) ;
+    text-decoration:none;
+}
+#alert{
+    display:none;
+    color: rgb(255, 0, 0);
+    margin:0;
+    font-size: smaller;
+}
